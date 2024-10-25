@@ -13,9 +13,7 @@ dp=Dispatcher()
 
 recipes=[['plov',['et','ris']],
          ['behbarmak',['et','kamyr']],
-         ['samsa',['et','kamyr']]],
-
-
+         ['samsa',['et','kamyr']]]
 
 @dp.message(Command('start'))
 async def start(message: types.Message):
@@ -37,4 +35,3 @@ async def main():
 
 if  __name__ == '__main__':
     asyncio.run(main())
-

@@ -24,6 +24,9 @@ async def start(message: types.Message):
             ],
             [
                 types.InlineKeyboardButton(text='jobs', callback_data="jobs"),
+            ],
+            [
+                types.InlineKeyboardButton(text='Оставить отзыв', callback_data="feedback"),
             ]
         ]
     )

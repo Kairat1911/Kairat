@@ -1,0 +1,2 @@
+def queries():
+    return None
